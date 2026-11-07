@@ -1,0 +1,490 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="CozyCode — a calmer, friendlier way to learn web development.">
+  <meta name="theme-color" content="#f8f7f3">
+  <title>CozyCode — Make yourself at home in code</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+
+  <div class="announcement">
+    <span class="announcement-dot"></span>
+    Your next chapter starts here.
+    <a href="#courses">Explore learning paths ↗</a>
+  </div>
+
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+
+      <a class="brand" href="#home">
+        <span class="brand-mark">
+          <span></span><span></span><span></span>
+        </span>
+        <span>
+          cozy<span class="brand-accent">code</span>
+          <small>LEARN AT YOUR PACE</small>
+        </span>
+      </a>
+
+      <button class="menu-toggle" type="button"
+        aria-label="Open navigation"
+        aria-expanded="false"
+        aria-controls="nav-links">
+        <span></span>
+        <span></span>
+      </button>
+
+      <div class="nav-links" id="nav-links">
+        <a href="#courses">Explore</a>
+        <a href="#how-it-works">How it works</a>
+        <a href="#stories">Stories</a>
+        <a class="nav-login" href="#newsletter">Log in</a>
+        <a class="button button-dark nav-cta" href="#courses">
+          Start learning ↗
+        </a>
+      </div>
+
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- HERO SECTION -->
+    <section class="hero container" id="home">
+
+      <div class="hero-copy">
+
+        <div class="eyebrow">
+          <span class="eyebrow-icon">✳</span>
+          A little more joy in your learning
+        </div>
+
+        <h1>
+          Big ideas.<br>
+          <span class="serif-accent">Cozy</span> beginnings.
+        </h1>
+
+        <p class="hero-description">
+          A friendly corner of the internet to learn code,
+          build cool things, and become the developer
+          you've always imagined.
+        </p>
+
+        <div class="hero-actions">
+          <a class="button button-dark" href="#courses">
+            Find your learning path ↗
+          </a>
+
+          <a class="text-link" href="#how-it-works">
+            <span class="play-icon">▶</span>
+            See how it works
+          </a>
+        </div>
+
+        <div class="social-proof">
+          <div class="avatar-stack">
+            <span>J</span>
+            <span>M</span>
+            <span>A</span>
+            <span>R</span>
+          </div>
+
+          <div>
+            <div class="stars">★★★★★ <b>4.9/5</b></div>
+            <small>Loved by 12,000+ curious minds</small>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- HERO ILLUSTRATION -->
+      <div class="hero-art">
+
+        <div class="art-note note-top">
+          <span>✦</span> You’ve got this!
+        </div>
+
+        <div class="sun-shape"></div>
+
+        <div class="plant plant-one">
+          <i></i><i></i><i></i><b></b>
+        </div>
+
+        <div class="desk-window">
+
+          <div class="window-top">
+            <span></span>
+            <span></span>
+            <span></span>
+            <small>your-next-big-idea.js</small>
+          </div>
+
+          <div class="code-lines">
+            <p><i>01</i> <span class="code-purple">const</span> dream <b>=</b> <em>"developer"</em>;</p>
+            <p><i>02</i> <span class="code-purple">let</span> confidence <b>=</b> <em>0</em>;</p>
+            <p><i>03</i></p>
+            <p><i>04</i> <span class="code-purple">while</span> (learning) {</p>
+            <p><i>05</i> &nbsp; confidence<span class="code-yellow">++</span>;</p>
+            <p><i>06</i> &nbsp; <span class="code-green">keepGoing</span>();</p>
+            <p><i>07</i> }</p>
+            <p><i>08</i> <span class="code-comment">// one step at a time ✨</span></p>
+          </div>
+
+        </div>
+
+        <div class="laptop-base"></div>
+
+        <div class="coffee">
+          <div class="coffee-heart">♡</div>
+          <div class="coffee-handle"></div>
+        </div>
+
+        <div class="art-note note-bottom">
+          <span>☕</span> Progress, not perfection.
+        </div>
+
+        <div class="sparkle sparkle-one">✳</div>
+        <div class="sparkle sparkle-two">✦</div>
+
+      </div>
+
+      <div class="hero-bottom">
+        <span>SCROLL A LITTLE</span>
+        <span class="scroll-line"></span>
+        <span>GOOD THINGS AHEAD</span>
+      </div>
+
+    </section>
+
+    <!-- TECHNOLOGY STRIP -->
+    <section class="trusted-strip">
+      <div class="container trusted-inner">
+        <span>MADE FOR THE CURIOUS</span>
+        <div>
+          <b>HTML</b><i>✳</i>
+          <b>CSS</b><i>✳</i>
+          <b>JAVASCRIPT</b><i>✳</i>
+          <b>YOU</b>
+        </div>
+      </div>
+    </section>
+
+    <!-- COURSES SECTION -->
+    <section class="section courses-section container" id="courses">
+
+      <div class="section-heading">
+        <div>
+          <div class="eyebrow">YOUR JOURNEY, YOUR WAY</div>
+          <h2>
+            Find your kind of
+            <span class="serif-accent">wonder.</span>
+          </h2>
+        </div>
+
+        <p>
+          Whether you're writing your first line or polishing
+          your skills, there's a comfy seat waiting for you.
+        </p>
+      </div>
+
+      <div class="course-grid">
+
+        <article class="course-card course-peach">
+          <div class="course-top">
+            <span class="course-tag">THE STARTER</span>
+            <span class="course-icon">⌘</span>
+          </div>
+
+          <div class="course-illustration html-illustration">
+            <span>&lt;/&gt;</span>
+            <i>✳</i>
+          </div>
+
+          <h3>HTML & CSS<br>Foundations</h3>
+
+          <p>
+            Build beautiful pages from a blank canvas.
+            No experience needed.
+          </p>
+
+          <div class="course-meta">
+            <span>↗ 8 bite-sized lessons</span>
+            <span>Beginner</span>
+          </div>
+
+          <a href="#newsletter" class="card-link">
+            Explore this path <span>↗</span>
+          </a>
+        </article>
+
+        <article class="course-card course-lilac">
+          <div class="course-top">
+            <span class="course-tag">MAKE IT MOVE</span>
+            <span class="course-icon">✳</span>
+          </div>
+
+          <div class="course-illustration js-illustration">
+            <span>JS</span>
+            <i>✦</i>
+          </div>
+
+          <h3>JavaScript<br>Playground</h3>
+
+          <p>
+            Bring your ideas to life with the magic
+            of interactive code.
+          </p>
+
+          <div class="course-meta">
+            <span>↗ 12 bite-sized lessons</span>
+            <span>Beginner+</span>
+          </div>
+
+          <a href="#newsletter" class="card-link">
+            Explore this path <span>↗</span>
+          </a>
+        </article>
+
+        <article class="course-card course-green">
+          <div class="course-top">
+            <span class="course-tag">THE CREATOR</span>
+            <span class="course-icon">♡</span>
+          </div>
+
+          <div class="course-illustration project-illustration">
+            <span>✧</span>
+            <i>↗</i>
+          </div>
+
+          <h3>Creative<br>Projects Lab</h3>
+
+          <p>
+            Turn what you know into real projects
+            you'll be proud to share.
+          </p>
+
+          <div class="course-meta">
+            <span>↗ 6 guided projects</span>
+            <span>All levels</span>
+          </div>
+
+          <a href="#newsletter" class="card-link">
+            Explore this path <span>↗</span>
+          </a>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- HOW IT WORKS -->
+    <section class="how-section" id="how-it-works">
+
+      <div class="container how-layout">
+
+        <div class="how-visual">
+
+          <div class="how-card">
+
+            <div class="how-card-top">
+              <span>YOUR WEEKLY LITTLE WIN</span>
+              <span>✦</span>
+            </div>
+
+            <div class="progress-title">
+              <strong>Learning streak</strong>
+              <b>4 days 🔥</b>
+            </div>
+
+            <div class="week-days">
+              <span><i>M</i><b>✓</b></span>
+              <span><i>T</i><b>✓</b></span>
+              <span><i>W</i><b>✓</b></span>
+              <span><i>T</i><b>✓</b></span>
+              <span><i>F</i><b></b></span>
+              <span><i>S</i><b></b></span>
+              <span><i>S</i><b></b></span>
+            </div>
+
+            <div class="tiny-message">
+              Small steps add up. Keep glowing!
+              <span>✿</span>
+            </div>
+
+          </div>
+
+          <div class="floating-flower">✿</div>
+          <div class="floating-star">✳</div>
+
+        </div>
+
+        <div class="how-copy">
+
+          <div class="eyebrow">
+            NO PRESSURE. JUST PROGRESS.
+          </div>
+
+          <h2>
+            Learning to code should feel like
+            <span class="serif-accent">you.</span>
+          </h2>
+
+          <p class="how-intro">
+            Forget the overwhelm. We break big topics into
+            little wins, so you can learn with confidence
+            and actually enjoy the process.
+          </p>
+
+          <div class="steps">
+
+            <div class="step">
+              <span>01</span>
+              <div>
+                <h3>Pick a path</h3>
+                <p>Choose what excites you. We'll help with the rest.</p>
+              </div>
+            </div>
+
+            <div class="step">
+              <span>02</span>
+              <div>
+                <h3>Learn in little bites</h3>
+                <p>Friendly lessons that fit into your real life.</p>
+              </div>
+            </div>
+
+            <div class="step">
+              <span>03</span>
+              <div>
+                <h3>Make something yours</h3>
+                <p>Practice with projects and celebrate every win.</p>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- TESTIMONIAL -->
+    <section class="quote-section container" id="stories">
+
+      <div class="quote-mark">“</div>
+
+      <div class="eyebrow">A NOTE FROM THE COMMUNITY</div>
+
+      <blockquote>
+        “For the first time, learning code feels less
+        like a test and more like
+        <span class="serif-accent">opening a door.</span>”
+      </blockquote>
+
+      <div class="quote-person">
+        <span class="quote-avatar">S</span>
+        <span>
+          <b>Sam R.</b>
+          <small>CozyCode learner</small>
+        </span>
+      </div>
+
+    </section>
+
+    <!-- NEWSLETTER -->
+    <section class="newsletter-section" id="newsletter">
+
+      <div class="container newsletter-box">
+
+        <div class="newsletter-decoration">✳</div>
+
+        <div class="eyebrow">
+          A LITTLE INSPIRATION, IN YOUR INBOX
+        </div>
+
+        <h2>
+          Good things grow<br>
+          when we <span class="serif-accent">keep learning.</span>
+        </h2>
+
+        <p>
+          Get gentle reminders, useful resources,
+          and fresh project ideas. No noise, just the good stuff.
+        </p>
+
+        <form class="newsletter-form" id="newsletter-form">
+
+          <label class="sr-only" for="email">
+            Your email address
+          </label>
+
+          <input
+            id="email"
+            name="email"
+            type="email"
+            placeholder="Your email address"
+            required
+          >
+
+          <button class="button button-dark" type="submit">
+            Count me in ↗
+          </button>
+
+        </form>
+
+        <p class="form-message" id="form-message" role="status">
+          A cozy little corner of your inbox.
+          Unsubscribe anytime.
+        </p>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+
+    <div class="container footer-main">
+
+      <a class="brand footer-brand" href="#home">
+        <span class="brand-mark">
+          <span></span><span></span><span></span>
+        </span>
+        <span>
+          cozy<span class="brand-accent">code</span>
+          <small>LEARN AT YOUR PACE</small>
+        </span>
+      </a>
+
+      <p>Make yourself at home in code.</p>
+
+      <div class="footer-links">
+        <a href="#courses">Explore</a>
+        <a href="#how-it-works">Our approach</a>
+        <a href="#newsletter">Say hello</a>
+      </div>
+
+    </div>
+
+    <div class="container footer-bottom">
+      <span>
+        © <span id="year"></span> CozyCode. Made with care.
+      </span>
+      <span>KEEP IT CURIOUS <b>✳</b></span>
+    </div>
+
+  </footer>
+
+</body>
+</html>
